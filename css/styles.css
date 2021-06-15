@@ -1,0 +1,90 @@
+ /*RESET CODE*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {margin:0; padding:0; border:0; font-weight:normal; font-style:normal;font-size:100%; line-height:1; font-family:inherit; text-align:left;}
+/*RESET CODE*/
+ 
+ html, body {
+    background:#46463A url(../images/body-bg.jpg) repeat-x top center;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color:#fff;
+    margin:0px;
+    height:100%;
+  }
+h1 {margin:0 0 0 -20px; padding:0; float:left;}
+h1 a {display:block; margin:0; padding:0; width:288px; height:99px; text-indent:-9999px; background: url(../images/awf-logo.jpg) no-repeat top left; text-decoration:none;}
+h2 {font-size: 18px; margin: 15px 0 0 20px;}
+.clear {clear: both;}
+a {color: #E0DACA;}
+a:hover {color: #718F40;}
+
+#wrapper {
+    position:absolute;
+    top:80px;
+    padding:0px;
+    margin-left:80px;
+  }
+ #content {
+ 	position: absolute;
+	background: #79796D url(../images/shadow.jpg) repeat-y top right;
+	margin-top: 50px;
+	width: 268px;
+	height: 270px;
+ 	}
+#content p {
+	padding: 20px;
+	line-height: 130%;
+	}
+#portrait {
+	padding: 10px;
+	margin: 10px 0 0 20px;
+	background: #fff;
+	}
+.phone {
+	font-size: 10px;
+	font-style: italic;
+	color: #79796D;
+	}
+  .btn {
+    padding-top:2px;
+    padding-bottom:2px;
+    border:0px;
+  }
+  .photoView {
+    position:absolute;
+    height:480px;
+    left:268px;
+    z-index:100;
+    background-color:#fff; 
+  	float: left; 
+	  padding: 10px 0 0 20px;
+	  width:8040px;
+  }
+  .menu {
+    position:absolute;
+    left:-20px;
+    width:302px;
+    bottom:14px;
+    color:#ffffff;
+    z-index:99;
+  }
+  
+  .menu2 {
+    position:absolute;
+    width:320px;
+    bottom:14px;
+    z-index:99;
+    background:transparent;
+  }
+  .menuOption{
+    padding:0px;
+    margin:0px;
+  }
+  .photo {
+    padding-top:10px;
+    border:0px;
+  }
+  .par {
+  	float: left; 
+  	padding-right:20px;
+  	height: 300px;
+  }
